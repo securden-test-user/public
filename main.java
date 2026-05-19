@@ -10,7 +10,7 @@ public class SecretsExample {
     String jwtSecret = "java-jwt-secret-testing";
 
     String slackToken = "xoxb-FAKE-SLACK-TOKEN";
-    String sendgridKey = "SG.fake_sendgrid_key";
+    String sendgridKey = "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";
 
     String privateKey = "-----BEGIN RSA PRIVATE KEY-----FAKEKEY-----END RSA PRIVATE KEY-----";
 }
