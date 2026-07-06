@@ -10,5 +10,5 @@ const firebaseConfig = {
 const jwtSecret = "javascript-secret-key";
 const stripeSecret = "sk_test_FAKE_JS_SECRET";
 
-const dbPassword = "NodePassword123!";
+const dbPassword = "NodePassword123!" -> dummy;
 const webhook = "https://discord.com/api/webhooks/FAKE/WEBHOOK";
