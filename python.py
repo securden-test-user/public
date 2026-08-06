@@ -46,3 +46,22 @@ tmsbiQKBgD8A/fO1YA3XlFHf4HDnJwzWNZhH7KUBtD6uwv6V0agdrgCNeY0Ut0bQ
 1LDK/MsuD+zFCaefu1/AFFJc2kA9vQavMoZdTEPNrq3A10KuAoUV
 -----END RSA PRIVATE KEY-----
 """
+
+
+
+
+
+GitHub_Apps = None
+
+
+# Owned by: @securden-test-user
+
+App_ID = 4495431
+
+Installation_ID = 151454994
+Client_ID = "Iv23lirpquvLE1adIhYM"
+
+
+Public_link = "https://github.com/apps/securden-nhi"
+
+Client_secrets = "096b79c9a7ebfcbf3ea9d1a186190b0278f969c7"
