@@ -65,3 +65,24 @@ Client_ID = "Iv23lirpquvLE1adIhYM"
 Public_link = "https://github.com/apps/securden-nhi"
 
 Client_secrets = "096b79c9a7ebfcbf3ea9d1a186190b0278f969c7"
+
+
+
+class GitHubTokenBasedSecretManager:
+
+    def __init__(
+        self,
+        user_name: str = None,
+        token: str = None,
+        data_source_id: int = None,
+    ):
+        self.user_name = user_name
+        self.token = token
+        self.data_source_id = data_source_id
+
+    def _auth_headers(self):
+        headers = {
+            "Accept": "application/vnd.github+json",
+            "X-GitHub-Api-Version": "2022-11-28",
+            "User-Agent": "github-secret-scanner-stdlib",
+        }
